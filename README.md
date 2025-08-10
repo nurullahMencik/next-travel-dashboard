@@ -4,7 +4,7 @@ Bu proje, Next.js, React ve TypeScript kullanarak geliştirilmiş, seyahat odakl
 
 ## Canlı Bağlantı
 
-Projenin canlı versiyonuna next-travel-dashboard.vercel.app adresinden ulaşabilirsiniz.
+Projenin canlı versiyonuna https://next-travel-dashboard.vercel.app adresinden ulaşabilirsiniz.
 
 ## Kullanılan Teknolojiler
 
