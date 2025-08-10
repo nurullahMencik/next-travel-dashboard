@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Seyahat Uygulaması & CMS
 
-## Getting Started
+Bu proje, Next.js, React ve TypeScript kullanarak geliştirilmiş, seyahat odaklı dinamik bir web uygulamasıdır. Kullanıcı yönetimi, state yönetimi ve veritabanı işlemlerini modern ve güçlü teknolojilerle ele alarak tam bir full-stack deneyimi sunar.
 
-First, run the development server:
+## Canlı Bağlantı
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Projenin canlı versiyonuna  ulaşabilirsiniz.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Kullanılan Teknolojiler
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **Frontend:**
+    -   [Next.js](https://nextjs.org/)
+    -   [React](https://reactjs.org/)
+    -   [TypeScript](https://www.typescriptlang.org/)
+    -   [Zustand](https://zustand-demo.pmnd.rs/) (Durum Yönetimi)
+    -   [Kullandığınız CSS kütüphanesi] (örn. Tailwind CSS, SASS vb.)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Backend:**
+    -   [Prisma](https://www.prisma.io/) (ORM ve Veritabanı Katmanı)
+    -   [Clerk](https://clerk.com/) (Kimlik Doğrulama)
 
-## Learn More
+``````
+├── app/                  # Next.js uygulama dizini
+│   ├── (auth)/           # Clerk ile kimlik doğrulama sayfaları
+│   ├── (home)/           # Ana sayfa ve ilgili bileşenler
+│   ├── hotels/           # Otel listeleme ve detay sayfaları
+│   ├── layout.tsx        # Ana sayfa düzeni
+│   ├── globals.css       # Global CSS dosyası
+│   └── ...
+├── components/           # Yeniden kullanılabilir React bileşenleri
+├── lib/                  # Helper fonksiyonları ve kütüphaneler
+├── prisma/               # Prisma veritabanı şeması ve migration dosyaları
+│   └── schema.prisma
+├── hooks/                # Özel React hook'ları (örn. useIsMobile)
+├── providers/            # Context ve provider'lar (örn. ClientProviders)
+├── node_modules/
+├── public/               # Statik dosyalar
+├── zustand/              # Zustand state yönetim dosyaları
+├── package.json
+├── tsconfig.json
+└── README.md
+``````
 
-To learn more about Next.js, take a look at the following resources:
+## Hazırlayan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   Nurullah Mencik - nurullahemncik42@gmail.com
