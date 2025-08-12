@@ -43,4 +43,4 @@ Projenin canlı versiyonuna https://next-travel-dashboard.vercel.app adresinden 
 
 ## Hazırlayan
 
--   Nurullah Mencik - nurullahemncik42@gmail.com
+-   Nurullah Mencik - nurullahmencik42@gmail.com
